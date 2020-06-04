@@ -37,4 +37,4 @@ Health Data - https://healthdata.gov/dataset/nchs-leading-causes-death-united-st
 
     Top 10 Deaths by state - Last update for 2017
     
-Our COVID-19 death database is cleaned through our first visualization and does not need any further adjustments. THe Health Data notebook cleans our second database for analysis in Tableau.
+As our dashboard only needs monthly data we will not update our data any more frequently. We will prep the Health Data datasource by removing unnecessary columns and adding a monthly average deaths column. We will then sum the monthly COVID-19 deaths from the USA Facts data. This will sum each months deaths by state. We will then combine the two datasets and save as a csv file.
